@@ -1,0 +1,344 @@
+body{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* ヘッダー ------------------------------------------------------------------*/
+.header{
+  width: 100%;
+  height: 60px;
+  background-color:rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+  box-shadow: 0px 0px 12px ;
+}
+
+.header-logo{
+  padding-left:30px;
+  float: left;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+/* ヘッダーアイコン------------------------------------------------------------*/
+.icon-arrow{
+  padding-left: 20px;
+  float: left;
+}
+#iconarrow{
+  line-height: 60px;
+  color: white;
+}
+.icon{
+  padding-left: 30px;
+  float: left;
+}
+.icon a{
+  display:block;
+}
+.icon a:hover{
+  background-color: rgba(34, 49, 52, 0.0);
+}
+
+#iconyoutube{
+  line-height: 60px;
+  color: white;
+}
+
+#icontwitter{
+  line-height: 60px;
+  color: white;
+}
+#iconinstagram{
+  line-height: 60px;
+  color: white;
+}
+
+/* メニュー ------------------------------------------------------------------*/
+.menu-list{
+  float:right;
+  line-height: 60px;
+  padding-right: 5px;
+}
+
+.menu-list a.iconmemu{
+  display: none;
+}
+
+.menu-list a{
+  float:left;
+  font-weight:bold;
+  font-size: 25px;
+  display:block;
+  padding: 0 15px;
+  margin: 0 15px;
+  background-color: rgba(255,255,255,0.1);
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.iconmenu{
+  background-color: initial;
+}
+
+/* smartphone ver css */
+  .smapho-menu{
+    float: right;
+    margin-right: -30px;
+    display: none;
+  }
+
+  #input{
+    display: none;
+  }
+
+  #top-input{
+    display: none;
+  }
+
+  .line{
+    width:50px;
+    height: 7px;
+    background-color: white;
+    margin: 10px;
+  }
+
+  .conte{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 105px;
+    transition: .3s ease-in-out;
+    transform: translateX(105px);
+    font-weight:bold;
+  }
+
+  .conte ul{
+    list-style: none;
+    padding: 0px;
+    margin: 5px;
+  }
+
+  .smamenu{
+    height: 600px;
+    z-index: 10;
+  }
+
+    .smamenu li{
+    padding-top: 15px;
+  }
+
+  .smamenu li:after {
+  content:"";
+  display:block;
+  height:3px;
+  width:100%;
+  background: -webkit-linear-gradient(left, #000000, rgba(255,255,255,0));
+  background:-moz-linear-gradient(left, #000000, rgba(255,255,255,0));
+  background:linear-gradient(to right, #000000, rgba(255,255,255,0));
+  border-radius: 40px;
+  }
+
+  .conte a{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+  }
+
+  #input:checked ~.conte{
+    transform: translate(-25px);
+  }
+
+/* スライド ------------------------------------------------------------------*/
+.slider{
+    margin:60px auto;
+    width: 60%;
+    padding: initial;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.slideimg{
+  margin: auto;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+/* Info ----------------------------------------------------------------------*/
+.glay{
+  background-color: rgba(54,54,54, 0.8);
+}
+
+.menu-logo{
+  /* padding-top: 35px; */
+}
+.menu-logo h1{
+  font-size: 40px;
+  margin-left: 30px;
+  color:white;
+  margin-bottom: 0px;
+  /*border-bottom: solid #444444 ; */
+  margin-bottom: 26.800px;
+}
+
+.menu-logo h1:after {
+content:"";
+display:block;
+height:3px;
+width:100%;
+background: -webkit-linear-gradient(left, #444444, #000000);
+background:-moz-linear-gradient(left, #444444, #000000);
+background:linear-gradient(to right, #444444, #000000);
+border-radius: 20px;
+}
+
+.Info{
+  padding-top: 20px;
+  height: 480px;
+  position: relative;
+}
+
+.bashinfo img{
+  width:25%;
+  padding-left: 40px;
+  z-index:8;
+}
+
+.bashinfo p{
+  font-size: 15px;
+  color: white;
+}
+
+/* メンバー情報-------------------------------------------------------------- */
+
+.members{
+  text-align: right;
+  position: absolute;
+  top: 125px;
+  right: 75px;
+}
+
+.members img{
+  width:15%;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.member{
+  display: inline;
+  position: relative;
+}
+
+.member p{
+  position: absolute;
+  bottom:-3px;
+  left: 90px;
+  color: white;
+  z-index: 8;
+}
+
+.member a{
+    color: white;
+}
+
+.member a:hover{
+  background-color: black;
+}
+
+.LiveSchedule{
+  color: white;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.LiveSchedule:hover{
+  background-color: black;
+  text-decoration: none;
+}
+
+/*Movie--------------------------------------------------------------------- */
+.Movie{
+  height: 550px;
+}
+
+.Movie-YouTube{
+  text-align: center;
+}
+
+/*SNS--------------------------------------------------------------------*/
+.SNS{
+  height: 750px;
+  position: relative;
+}
+
+.timeline-twi {
+  position: absolute;
+  left: 90px;
+}
+
+.timeline-twi-smapho{
+  display: none;
+}
+
+.insta-time{
+  position: absolute;
+  right: 70px;
+  width: 700px;
+}
+
+.insta-time-smapho{
+  display: none;
+}
+
+
+/*footer--------------------------------------------------------------------- */
+
+.footer{
+  height: 175px;
+  padding-top: 100px;
+  width:100%;
+  text-align: center;
+  color: white;
+}
+
+.footer::before {
+content:"";
+display:block;
+height:1px;
+width:95%;
+margin: auto;
+background: -webkit-linear-gradient(left, #C0C0C0, #C0C0C0);
+background:-moz-linear-gradient(left, #C0C0C0, #C0C0C0);
+background:linear-gradient(to right, #C0C0C0, #C0C0C0);
+border-radius: 20px;
+}
+
+.footer-icons{
+  margin: 0% 43%;
+}
+
+.footer-reserved{
+  width:100%;
+  text-align: center;
+  color: white;
+}
+
+.footer-reserved p{
+  margin-top: -13px;
+}
+
+
