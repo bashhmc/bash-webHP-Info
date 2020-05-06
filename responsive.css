@@ -1,8 +1,8 @@
 /* smartphone medeia query */
 @media (max-width:670px) {
 /*header　menu-bars */
-  .header-logo{
-    padding-left: 20px;
+   .header-logo{
+    padding-left: 10px;
   }
 
   .headerleft{
@@ -68,7 +68,6 @@
   bottom: -120%;
   left: 25%;
   color: white;
-  font-size: 30px;
 }
 
 .member a{
@@ -163,7 +162,17 @@
 
 @media (max-width:380px) {
 /*-- Inof------------------------------------------------------------------- */
- .members{
+ .icon-arrow{
+  padding-left: 7px;
+  float: left;
+}
+
+.icon{
+  padding-left: 10px;
+  float: left;
+}
+  
+  .members{
    margin-top: -120px;
  }
 
