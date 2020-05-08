@@ -74,36 +74,19 @@
 .member a{
   color: white;
 }
-
-/*Movie */
-.Movie{
-  height: 450px;
-}
-
-.Movie-YouTube{
-  width:90%;
-  height: 300px;
-}
-
-/* contact--------------------- */
-
- .contact{
-   height: 500px;
- }
-
- .contact p{
-   font-size: 15px;
-   color: white;
-   margin-left: 35px;
- }
-
- .form{
-   padding-left: 20px;
- }
-
+   
 }
 
 @media (max-width:420px) {
+.icon-arrow{
+  padding-left: 10px;
+  float: left;
+}
+  
+.icon{
+  padding: 0px 10px;
+  float: left;
+}
 /* Info ----------------------------------------------------------------------*/
 .smamenu{
   height: 900px;
@@ -162,6 +145,15 @@
 }
 
 @media (max-width:380px) {
+ .icon-arrow{
+  padding-left: 10px;
+  float: left;
+}
+  
+.icon{
+  padding: 0px 10px;
+  float: left;
+}
 /*-- Inof------------------------------------------------------------------- */
  .icon-arrow{
   padding-left: 7px;
