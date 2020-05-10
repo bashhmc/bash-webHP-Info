@@ -273,17 +273,6 @@ border-radius: 20px;
   background-color: black;
 }
 
-.LiveSchedule{
-  color: white;
-  font-size: 30px;
-  padding-left: 50px;
-}
-
-.LiveSchedule:hover{
-  background-color: black;
-  text-decoration: none;
-}
-
 /*Movie--------------------------------------------------------------------- */
 .Movie{
   height: 550px;
@@ -342,7 +331,7 @@ border-radius: 20px;
 }
 
 .footer-icons{
-  margin: 0% 43%;
+  margin: 0% 37%;
 }
 
 .footer-reserved{
