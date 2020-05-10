@@ -59,6 +59,20 @@ body{
   color: white;
 }
 
+#iconitunes{
+  line-height: 60px;
+  color: white;
+}
+
+#iconapple{
+  line-height: 60px;
+  color: white;
+}
+
+#iconspotify{
+  line-height: 60px;
+  color: white;
+}
 /* メニュー ------------------------------------------------------------------*/
 .menu-list{
   float:right;
